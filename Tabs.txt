@@ -1,0 +1,69 @@
+ <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/header"
+
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/top"
+
+        app:contentPadding="4dp"
+        app:cardPreventCornerOverlap="true"
+        >
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="horizontal">
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/milk"
+                    />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/meat"
+                    android:layout_weight="1"
+                   
+                    />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:paddingTop="10dp"
+
+                    android:paddingBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:src="@drawable/milk"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+
+        </GridLayout>
+
+    </android.support.v7.widget.CardView>
